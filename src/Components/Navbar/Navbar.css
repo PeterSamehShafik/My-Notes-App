@@ -1,0 +1,18 @@
+.nav-link{
+	color:#949cb0 !important;
+	cursor:pointer;
+}
+.active{
+	background-color: #09c !important;
+	color:#fff !important;
+}
+
+.fa-sticky-note{
+	font-size:larger;
+}
+.dropdown-menu{
+	border: 0.5px solid rgba(255,255,255,0.5) !important;
+}
+.navbar-custom{
+	background-color:#343a40 !important;
+}
