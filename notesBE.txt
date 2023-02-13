@@ -1,0 +1,13 @@
+Notes:
+title
+desc
+userID
+
+endpoints:
+/getUserNotes, header:{token,userIDX} GET
+
+/addNote , body:{title, desc, userIDX, token} POST   (DONE)
+
+/deleteNote , body:{NoteID, token} DELETE
+
+/updateNote , body:{title, desc, userIDX, NoteID, token} PUT

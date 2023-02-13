@@ -1,0 +1,36 @@
+body {
+  color: white;
+  background-color: #343a40;
+}
+
+.floating-label-group {
+	position: relative;
+	
+	.floating-label {
+		font-size: 1rem;
+		color: #8d8d8d;
+		position: absolute;
+		pointer-events: none;
+		top: 0.4rem;
+		left: 0.8rem;
+		transition: all 0.1s ease;
+	}
+
+	input:focus ~ .floating-label,
+	input:not(:focus):valid ~ .floating-label {
+		top: -1.3rem;
+		bottom: 0px;
+		left: 0px;
+		font-size:1rem;
+		opacity: 1;
+		color: rgb(148, 230, 255);
+		text-shadow: -1px -1px 0 #000,-1px -1px 0 #000,-1px -1px 0 #000,-1px -1px 0 #000;
+	}
+}
+.form-control {
+	margin: 12px 0px;
+	padding: 10px;
+}
+button{
+	margin-top: 12px !important;
+}
